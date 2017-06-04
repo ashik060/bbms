@@ -26,10 +26,10 @@
                     <label>Password</label><input class="form-control" type="password" maxlength="64" name="pass"
                                                   required/>
                 </div>
-                <div class="form-group">
-                    <label>Retype Password</label><input class="form-control" type="password" maxlength="64"
-                                                         name="pass2" required/>
-                </div>
+                {{--<div class="form-group">--}}
+                    {{--<label>Retype Password</label><input class="form-control" type="password" maxlength="64"--}}
+                                                         {{--name="pass2" required/>--}}
+                {{--</div>--}}
                 <div class="form-group">
                     <label>Address</label><input class="form-control" type="text" maxlength="250" name="address"
                                                  required/>

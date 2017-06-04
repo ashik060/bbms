@@ -36,8 +36,15 @@
                 </div>
                 <div class="form-group">
                     <label>Blood Group</label>
-                    <select class="form-control" name="blood" disabled>
-                        <option>{{$blood}}</option>
+                    <select class="form-control" name="blood" >
+                        <option @if($blood == "A+") selected @endif>A+</option>
+                        <option @if($blood == "A-") selected @endif>A-</option>
+                        <option @if($blood == "B+") selected @endif>B+</option>
+                        <option @if($blood == "B-") selected @endif>B-</option>
+                        <option @if($blood == "O+") selected @endif>O+</option>
+                        <option @if($blood == "O-") selected @endif>O-</option>
+                        <option @if($blood == "AB+") selected @endif>AB+</option>
+                        <option @if($blood == "AB-") selected @endif>AB-</option>
                     </select>
                 </div>
                 <div class="form-group">

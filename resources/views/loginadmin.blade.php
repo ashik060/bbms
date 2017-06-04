@@ -8,15 +8,15 @@
 <body>
 <form class="login" method="post">
     {{csrf_field()}}
-    <fieldset class="col-md-4"></fieldset>
-    <fieldset class="col-md-4 text-center" style="margin-top: 80px;background-color: #33e1c6;padding: 30px">
+    <fieldset class="col-md-3"></fieldset>
+    <fieldset class="col-md-5 text-center" style="margin-top: 80px;background-color: #33e1c6;padding: 30px">
         @if($msg != null)
             <div class="alert alert-danger">{{$msg}}</div>
         @endif
         <table>
             <div>
                 <tr>
-                    <td><input type="email" name="email" size="70" placeholder="Enter your email or username"
+                    <td><input type="email" name="email" size="70" placeholder="Enter your email"
                                style="margin-bottom: 30px" required/></td>
                 </tr>
             </div>
